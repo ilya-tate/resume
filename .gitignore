@@ -1,2 +1,3 @@
-resume.*
-!resume.tex
+resume.*    # Build files
+!resume.tex # Meat
+!resume.pdf # Used in readme
