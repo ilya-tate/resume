@@ -1,3 +1,6 @@
-resume.*    # Build files
-!resume.tex # Meat
-!resume.pdf # Used in readme
+# LaTeX build files
+resume.*
+# Keep the source and the PDF used in the README
+!resume.tex
+!resume.pdf
+!resume.png

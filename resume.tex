@@ -126,6 +126,9 @@
     \resumeSubheading
       {Arizona State University}{Tempe, AZ}
       {Bachelor of Science (B.S.) in Computer Science}{Expected May 2027}
+      \resumeItemListStart
+        \resumeItem{\textbf{Coursework:} Data Structures and Algorithms, Operating Systems, Computer Networks, Database Management, Software Engineering}
+      \resumeItemListEnd
     \resumeSubheading
       {West-MEC Central Campus}{Glendale, AZ}
       {Full-Stack Development}{May 2022}
@@ -143,7 +146,7 @@
         \resumeItem{Design the Vehicle Control Unit (VCU) and write its embedded Rust firmware on an STM32G4 microcontroller}
         \resumeItem{Implement 500 kbit/s CAN 2.0 messaging using async tasks and channels for frame input, processing, and output}
         \resumeItem{Improve reliability with a hardware watchdog and GitHub Actions CI that checks formatting and release builds}
-        \resumeItem{Coordinate firmware work using an Agile Kanban board and pull requests}
+        \resumeItem{Lead firmware work with an Agile Kanban board, pull requests, and an onboarding guide for new members}
         \resumeItem{Research and document PM100DX motor controller specs, wiring diagrams, and physical wiring}
         \resumeItem{Install and maintain mechanical and electrical components on the electric vehicle (EV)}
       \resumeItemListEnd
@@ -162,11 +165,12 @@
       {Capstone Project Manager}{Aug 2026 -- Present}
       {Arizona State University}{Tempe, AZ}
       \resumeItemListStart
-        \resumeItem{Chosen by sponsor and team to lead the project to review code and plan development}
-        \resumeItem{Majority contributor to the documentation and codebase}
-        \resumeItem{Manage a team of 5 building Times Up, a sponsor-backed mobile app, using Agile, merge requests, and CI/CD}
-        \resumeItem{Develop the Java, Spring Boot, and PostgreSQL REST API, including user validation and BCrypt hashing}
-        \resumeItem{Set up the React Native frontend with Expo Router and EAS builds, including the app layout and calendar routes}
+        \resumeItem{Chosen by the sponsor and teammates to lead the 5-person team building Times Up, a mobile scheduling app}
+        \resumeItem{Run Agile planning, review GitLab merge requests, and write most of the code and documentation}
+        \resumeItem{Develop the Java, Spring Boot, and PostgreSQL REST API, with the database containerized in Docker Compose}
+        \resumeItem{Modeled user accounts with Spring Data JPA, including age and email verification and BCrypt password hashing}
+        \resumeItem{Set up the React Native and TypeScript frontend with Expo Router, including the app layout and calendar routes}
+        \resumeItem{Built a CI/CD pipeline with EAS for preview and production builds, store submission, and over-the-air updates}
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -176,18 +180,11 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Times Up} $|$ \emph{Java, Spring Boot, REST API, PostgreSQL, Maven, React Native, Expo, Docker}}{Sep 2026 -- Present}
-          \resumeItemListStart
-            \resumeItem{Building a cross-platform app that plans a user's calendar around fixed commitments and adapts to changes}
-            \resumeItem{Modeled user accounts with Spring Data JPA, including age and email verification and account lifecycle states}
-            \resumeItem{Built a CI/CD pipeline with EAS for preview and production builds, store submission, and over-the-air updates}
-            \resumeItem{Containerized PostgreSQL with Docker Compose for local development}
-          \resumeItemListEnd
-      \resumeProjectHeading
           {\textbf{Canplan} $|$ \emph{JavaScript, Node.js, REST APIs, Chrome Extensions, Snowflake Cortex}}{Oct 2026}
           \resumeItemListStart
             \resumeItem{Co-built an AI Chrome extension at Hack Day x sunhacks 2026 that plans Canvas work using LLM estimates}
             \resumeItem{Wrote the Canvas REST API collector, which handles pagination and keeps only current, unsubmitted work}
+            \resumeItem{Sped up syncs for long-history courses by fetching only open work in 3 parallel filtered requests}
             \resumeItem{Developed the planner's week view, date range filters, and live sync progress}
             \resumeItem{Wrote a mock Canvas server for end-to-end tests in a 54-test suite and added sync reports to find bottlenecks}
           \resumeItemListEnd
@@ -196,13 +193,13 @@
           \resumeItemListStart
             \resumeItem{Built an IoT device that detects whether a deadbolt is locked using microphone audio and a magnetic sensor}
             \resumeItem{Programmed an ESP32 in C++ to read both inputs and report lock status over Wi-Fi}
-            \resumeItem{Ran a local server on my home lab to receive and store lock status updates}
+            \resumeItem{Ran a local server in a home lab to receive and store lock status updates}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Veterinary Adoption Site} $|$ \emph{MongoDB, Express.js, React, Node.js, Next.js}}{Feb 2022 - Apr 2022}
+          {\textbf{Veterinary Adoption Site} $|$ \emph{MongoDB, Express.js, React, Node.js, Next.js}}{Feb 2022 -- Apr 2022}
           \resumeItemListStart
             \resumeItem{Co-built a MERN pet adoption site for West-MEC's veterinary program with animal listings and admin pages}
-            \resumeItem{Added admin roles to the MongoDB user model and built the site footer}
+            \resumeItem{Added an admin role to the MongoDB user model for the site's admin pages}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{Pokemon Pokedex} $|$ \emph{JavaScript, HTML, Bootstrap, Sass}}{Dec 2021}
@@ -221,7 +218,7 @@
      \textbf{Languages}{: Java, Python, C/C++, Rust, JavaScript, TypeScript, HTML/CSS, SQL} \\
      \textbf{Frameworks}{: Spring Boot, Spring Data JPA, React, React Native, Next.js, Expo, Node.js, Express.js, JUnit} \\
      \textbf{Embedded}{: STM32, ESP32, Raspberry Pi, Embassy, CAN, SPI, UART} \\
-     \textbf{Practices}{: REST APIs, Agile, CI/CD, Automated Testing, Data Structures and Algorithms, OOP} \\
+     \textbf{Practices}{: REST APIs, Agile, CI/CD, Automated Testing, Object-Oriented Programming (OOP)} \\
      \textbf{Developer Tools}{: Git, GitHub, GitLab, GitHub Actions, Docker, PostgreSQL, MongoDB, Maven, Linux, Google Cloud} \\
 %     \textbf{Libraries}{: }
     }}
